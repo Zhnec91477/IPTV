@@ -70,7 +70,7 @@ for c in ['ru','by']:
         inf=L[i];opts=[];i+=1
         while L[i].startswith('#'): opts.append(L[i]);i+=1
         url=L[i].strip();i+=1
-        if url in seen or url in DROPU: continue
+        if url in seen or url in DROPU or 'cinerama.uz' in url: continue
         seen.add(url)
         m=re.search(r'tvg-id="([^"]*)"',inf);tid=m.group(1) if m else ''
         cid,_,feed=tid.partition('@');name=inf.split(',',1)[1]
