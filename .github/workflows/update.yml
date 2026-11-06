@@ -15,6 +15,8 @@ jobs:
           mkdir -p src
           curl -fsSL -o src/ru.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u
           curl -fsSL -o src/by.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/by.m3u
+          curl -fsSL -o src/freetv_ru.m3u8 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_russia.m3u8 || true
+          curl -fsSL -o src/freetv_by.m3u8 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_belarus.m3u8 || true
           for f in channels logos categories; do
             curl -fsSL -o src/$f.csv https://raw.githubusercontent.com/iptv-org/database/master/data/$f.csv
           done

@@ -108,8 +108,48 @@ for c in ['ru','by']:
         score=('cinerama.uz' not in url,url in LIVE,len(tags)==0,res,url.startswith('https'))
         items.append(dict(key=key,score=score,core=core,res=res,tags=tags,grp=grp,tid=tid,cid=cid,opts=opts,url=url,
             sk=(FORDER.index(grp),PRI(c,base,fed,core),core.lower())))
+
+# --- Free-TV (legal free streams): reserves for known channels + selected new channels
+FT_NEW={'ОНТ':'Федеральные','Belros':'Федеральные','Че':'Музыкальные / Развлекательные','Ю':'Музыкальные / Развлекательные',
+ '1Mus':'Музыкальные / Развлекательные','Смотрим: Мелодрамы':'Кино и сериалы','Смотрим: Тайны':'Кино и сериалы','Смотрим: Честный Детектив':'Кино и сериалы',
+ 'Соловьёв Live':'Новостные','360 Новости':'Новостные','CGTN Pусский':'Новостные','Euronews по-русски':'Новостные','Министерство Идей':'Познавательные'}
+FT_REN={'Belros':'БелРос','8 Kanal Vitebsk':'8 канал Витебск','Hawe TV Vitebsk':'Хаве ТВ Витебск','CGTN Pусский':'CGTN на русском','Смотрим: Честный Детектив':'Смотрим: Честный детектив'}
+def _norm(t): return re.sub(r'[^0-9a-zа-яё]','',t.lower().replace('ё','е'))
+bycid={};byname={}
+for x in items:
+    if x['cid']: bycid.setdefault(x['cid'].lower(),x)
+    byname.setdefault(_norm(x['core']),x)
+for fn in ['freetv_ru.m3u8','freetv_by.m3u8']:
+    fp=os.path.join(d,fn)
+    if not os.path.exists(fp): continue
+    L=open(fp,encoding='utf-8').read().splitlines();i=0
+    while i<len(L):
+        if not L[i].startswith('#EXTINF'): i+=1;continue
+        inf=L[i];opts=[];i+=1
+        while i<len(L) and L[i].startswith('#'): opts.append(L[i]);i+=1
+        if i>=len(L): break
+        url=L[i].strip();i+=1
+        if not url or url in seen or url in DROPU or 'cinerama.uz' in url: continue
+        if re.search(r'youtube\.com|youtu\.be|vk\.com|ok\.ru|twitch\.tv',url): continue
+        nm=re.sub(r'\s*[ⒼⓈⓎⓋⓄⓂ]\s*$','',inf.rsplit(',',1)[1]).strip()
+        nm=re.sub(r'\s*\((\d+p)\)$','',nm)
+        tid=(re.search(r'tvg-id="([^"]*)"',inf) or [None,''])[1]
+        lg=(re.search(r'tvg-logo="([^"]*)"',inf) or [None,''])[1]
+        ex=bycid.get(tid.lower()) if tid else None
+        ex=ex or byname.get(_norm(nm))
+        seen.add(url)
+        if ex:
+            y=dict(ex);y.update(url=url,opts=opts,tags=[],score=(True,False,True,ex['res'],url.startswith('https')))
+            items.append(y);continue
+        if nm not in FT_NEW and not re.search(r' 24$|Vitebsk|Витебск',nm): continue
+        grp=FT_NEW.get(nm,'Региональные');core=FT_REN.get(nm,nm)
+        res=1080 if re.search(r'1080|hd',url,re.I) else 0
+        it=dict(key=('ft',tid or core.lower()),score=(True,False,True,res,url.startswith('https')),core=core,res=res,tags=[],grp=grp,
+                tid=tid,cid=tid,opts=opts,url=url,logo=lg,sk=(FORDER.index(grp),PRI('ru','',False,core),core.lower()))
+        items.append(it);byname[_norm(core)]=it
+items=[x for x in items if '.mpd' not in x['url']]  # DASH: OttPlayer can't play it
 def write(path,its):
-    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],-x['res'],not x['score'][0],not x['score'][1]))
+    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],'.mpd' in x['url'],-x['res'],not x['score'][0],not x['score'][1]))
     its=[dict(x,grp=('HD '+x['grp'] if x['res']>=720 else x['grp'])) for x in its]
     cnt={}
     with open(path,'w',encoding='utf-8') as f:
@@ -118,7 +158,7 @@ def write(path,its):
             n=x['core']+(' HD' if x['res']>=720 else '')
             k=(x['grp'],n);cnt[k]=cnt.get(k,0)+1
             if cnt[k]>1: n+=f' (резерв {cnt[k]-1})'
-            f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{logo.get(x["cid"],"")}" group-title="{x["grp"]}",{n}\n'+''.join(o+'\n' for o in x['opts'])+f'#EXTGRP:{x["grp"]}\n'+x['url']+'\n')
+            f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{x.get("logo") or logo.get(x["cid"],"")}" group-title="{x["grp"]}",{n}\n'+''.join(o+'\n' for o in x['opts'])+f'#EXTGRP:{x["grp"]}\n'+x['url']+'\n')
 best={id(x):x for x in items}
 fin=list(best.values())
 for x in list(fin):
