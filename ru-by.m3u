@@ -272,12 +272,6 @@ https://streaming.thestream.cyou/live/7000.m3u8
 #EXTINF:-1 tvg-id="360.ru@SD" tvg-name="360°" tvg-logo="https://i.imgur.com/VTJqdoX.png" group-title="Федеральные",360° (резерв 1)
 #EXTGRP:Федеральные
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-#EXTINF:-1 tvg-id="Belarus4.by@Gomel" tvg-name="Belarus-4 Gomel" tvg-logo="https://i.imgur.com/XNkQrMr.png" group-title="Федеральные",Belarus-4 Gomel
-#EXTGRP:Федеральные
-https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Belarus4.by@Vitebsk" tvg-name="Belarus-4 Vitebsk" tvg-logo="https://i.imgur.com/XNkQrMr.png" group-title="Федеральные",Belarus-4 Vitebsk HD
-#EXTGRP:Федеральные
-https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVi.ru@SD" tvg-name="RTVi" tvg-logo="https://i.imgur.com/1AEhXyS.png" group-title="Федеральные",RTVi
 #EXTGRP:Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -300,18 +294,9 @@ http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AISTTV.ru@SD" tvg-name="АИСТ ТВ" tvg-logo="https://i.imgur.com/bcw0s4V.png" group-title="Федеральные",АИСТ ТВ
 #EXTGRP:Федеральные
 http://194.143.148.28:8080/Aist/index.m3u8
-#EXTINF:-1 tvg-id="BugTV.by@SD" tvg-name="Буг-ТВ" tvg-logo="https://i.imgur.com/KqB7YdO.png" group-title="Федеральные",Буг-ТВ HD
-#EXTGRP:Федеральные
-http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
 #EXTINF:-1 tvg-id="Vera24.ru@SD" tvg-name="Вера 24" tvg-logo="https://i.imgur.com/Qer5Lnh.png" group-title="Федеральные",Вера 24
 #EXTGRP:Федеральные
 https://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/playlist.m3u8
-#EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://i.imgur.com/qr26qQn.png" group-title="Федеральные",Витебск
-#EXTGRP:Федеральные
-http://46.53.200.153:7777/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://i.imgur.com/qr26qQn.png" group-title="Федеральные",Витебск (резерв 1)
-#EXTGRP:Федеральные
-https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="VmesteRF.ru@SD" tvg-name="Вместе-РФ" tvg-logo="https://i.imgur.com/KI1qZNc.png" group-title="Федеральные",Вместе-РФ
 #EXTGRP:Федеральные
 https://streaming.thestream.cyou/live/7006.m3u8
