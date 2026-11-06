@@ -115,7 +115,7 @@ def write(path,its):
             n=x['core']+(' HD' if x['res']>=720 else '')
             k=(x['grp'],n);cnt[k]=cnt.get(k,0)+1
             if cnt[k]>1: n+=f' (резерв {cnt[k]-1})'
-            f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{logo.get(x["cid"],"")}" group-title="{x["grp"]}",{n}\n'+''.join(o+'\n' for o in x['opts'])+x['url']+'\n')
+            f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{logo.get(x["cid"],"")}" group-title="{x["grp"]}",{n}\n#EXTGRP:{x["grp"]}\n'+''.join(o+'\n' for o in x['opts'])+x['url']+'\n')
 best={id(x):x for x in items if x['grp']!='Региональные'}
 fin=list(best.values())
 for x in list(fin):
