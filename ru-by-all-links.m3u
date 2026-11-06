@@ -273,8 +273,8 @@ https://streaming.thestream.cyou/live/7000.m3u8
 #EXTGRP:Федеральные
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="RTVi.ru@SD" tvg-name="RTVi" tvg-logo="https://i.imgur.com/1AEhXyS.png" group-title="Федеральные",RTVi
-#EXTGRP:Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTGRP:Федеральные
 https://shift03.isp.bg/RTVi/index.m3u8
 #EXTINF:-1 tvg-id="RTVi.ru@SD" tvg-name="RTVi" tvg-logo="https://i.imgur.com/1AEhXyS.png" group-title="Федеральные",RTVi (резерв 1)
 #EXTGRP:Федеральные
@@ -304,8 +304,8 @@ https://streaming.thestream.cyou/live/7006.m3u8
 #EXTGRP:Федеральные
 http://media1.skifnet.by/voentv/index.m3u8
 #EXTINF:-1 tvg-id="LawTV.ru@SD" tvg-name="Закон ТБ" tvg-logo="https://i.imgur.com/X0Vp6fd.png" group-title="Федеральные",Закон ТБ HD
-#EXTGRP:Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTGRP:Федеральные
 http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1 tvg-id="Istoki.ru@SD" tvg-name="Истоки" tvg-logo="https://istoki.tv/local/templates/istoki_new/img/logo.png" group-title="Федеральные",Истоки HD
 #EXTGRP:Федеральные
@@ -368,9 +368,9 @@ https://hls.tv.3angels.ru/stream.m3u8
 #EXTGRP:Федеральные
 https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel8International.ru@SD" tvg-name="8 канал International" tvg-logo="https://i.imgur.com/I8OU9oa.png" group-title="Федеральные",8 канал International
-#EXTGRP:Федеральные
 #EXTVLCOPT:http-referrer=http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0
+#EXTGRP:Федеральные
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 #EXTINF:-1 tvg-id="STSInternational.ru@SD" tvg-name="STS International" tvg-logo="https://i.imgur.com/mwiC0RG.png" group-title="Федеральные",STS International
 #EXTGRP:Федеральные
@@ -382,8 +382,8 @@ https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5
 #EXTGRP:Федеральные
 https://fs.uplink.kz/perviy_kanal_sng/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Пятый International" tvg-logo="https://i.imgur.com/8VKc2Ya.png" group-title="Федеральные",Пятый International
-#EXTGRP:Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+#EXTGRP:Федеральные
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Пятый International" tvg-logo="https://i.imgur.com/8VKc2Ya.png" group-title="Федеральные",Пятый International (резерв 1)
 #EXTGRP:Федеральные
@@ -587,8 +587,8 @@ http://stream.mcquack.net/236/index.m3u8
 #EXTGRP:Кино и сериалы
 https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Dorama.ru@HD" tvg-name="Дорама" tvg-logo="https://i.imgur.com/ZH5LuXU.png" group-title="Кино и сериалы",Дорама HD
-#EXTGRP:Кино и сериалы
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTGRP:Кино и сериалы
 http://stream.mcquack.net/412/index.m3u8
 #EXTINF:-1 tvg-id="Dorama.ru@SD" tvg-name="Дорама" tvg-logo="https://i.imgur.com/ZH5LuXU.png" group-title="Кино и сериалы",Дорама
 #EXTGRP:Кино и сериалы
@@ -870,12 +870,12 @@ http://178.124.179.122:8080/Setanta1/index.m3u8
 #EXTGRP:Спортивные
 http://46.53.200.153:7777/play/test_krask1/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports1.ru@SD" tvg-name="Setanta Sports 1" tvg-logo="https://i.imgur.com/8ANUZAu.png" group-title="Спортивные",Setanta Sports 1
-#EXTGRP:Спортивные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+#EXTGRP:Спортивные
 http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
 #EXTINF:-1 tvg-id="SetantaSports2.ru@SD" tvg-name="Setanta Sports 2" tvg-logo="https://i.imgur.com/NOBACb6.png" group-title="Спортивные",Setanta Sports 2
-#EXTGRP:Спортивные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+#EXTGRP:Спортивные
 http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="UDAR.ru@SD" tvg-name="UDAR" tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png" group-title="Спортивные",UDAR HD
 #EXTGRP:Спортивные
@@ -1034,8 +1034,8 @@ http://stream.mcquack.net/116/index.m3u8
 #EXTGRP:Познавательные
 https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="RTGint.ru@SD" tvg-name="RTG int." tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="Познавательные",RTG int.
-#EXTGRP:Познавательные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+#EXTGRP:Познавательные
 http://213.91.179.28:8000/play/a0bw
 #EXTINF:-1 tvg-id="RTGTV.ru@HD" tvg-name="RTG TV" tvg-logo="https://i.imgur.com/ZMKPAho.png" group-title="Познавательные",RTG TV HD
 #EXTGRP:Познавательные
@@ -1911,13 +1911,13 @@ https://streaming.thestream.cyou/live/7004.m3u8
 #EXTGRP:Региональные
 http://91.214.48.158:4022/udp/224.2.2.4:10000
 #EXTINF:-1 tvg-id="Channel8Krasnoyarsk.ru@HD" tvg-name="8 канал Красноярск" tvg-logo="https://i.imgur.com/q3JCAC3.png" group-title="Региональные",8 канал Красноярск HD
-#EXTGRP:Региональные
 #EXTVLCOPT:http-referrer=https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTGRP:Региональные
 https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Channel8Novosibirsk.ru@SD" tvg-name="8 канал Новосибирск" tvg-logo="https://i.imgur.com/eHGETvU.png" group-title="Региональные",8 канал Новосибирск
-#EXTGRP:Региональные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTGRP:Региональные
 https://live-8knsk.cdnvideo.ru/8knsk/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Oplot2.ru@SD" tvg-name="Oplot 2" tvg-logo="https://nettv.live/uploads/allimg/21/1-210123195A80-L.jpg" group-title="Региональные",Oplot 2 HD
 #EXTGRP:Региональные
@@ -2037,9 +2037,9 @@ https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 #EXTGRP:Региональные
 https://live1.1tvcrimea.ru/1tvcrimea.m3u8
 #EXTINF:-1 tvg-id="Rossiya1Vainah.ru@SD" tvg-name="Россия 1 Вайнах" tvg-logo="https://i.imgur.com/GnbNG0r.png" group-title="Региональные",Россия 1 Вайнах
-#EXTGRP:Региональные
 #EXTVLCOPT:http-referrer=https://gtrkvainah.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition std-2)
+#EXTGRP:Региональные
 https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="S1.ru@SD" tvg-name="С1 (Сургут)" tvg-logo="https://i.imgur.com/chNBF5t.png" group-title="Региональные",С1 (Сургут) HD
 #EXTGRP:Региональные
