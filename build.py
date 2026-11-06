@@ -95,8 +95,7 @@ for c in ['ru','by']:
         if core in DROP: continue
         grp=refine(grp,core,cats,c)
         if c=='by' and grp=='Региональные': grp='Общие'
-        if c=='by' and re.search(r'^Belarus-4|^Витебск|^Буг-ТВ',core): grp='Региональные'
-        grp=grp if grp=='Региональные' else final(grp,core,base,fed)
+        grp=final(grp,core,base,fed)
         if url in OVR['rename']:
             rn,rcid,rg=OVR['rename'][url]; core=rn
             if rcid: cid=rcid; tid=rcid+'@'+(feed or 'SD'); base=rcid.split('.')[0]
