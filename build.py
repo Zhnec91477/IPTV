@@ -84,6 +84,7 @@ for c in ['ru','by']:
         fed=c=='ru' and base in FED and cid.endswith('.ru')
         alts=[a for a in (info.get('alt_names') or '').split(';') if CYR.search(a)]
         if cid=='STV.by': core='СТВ'
+        core={'Belarus-4 Gomel':'Беларусь 4 Гомель','Belarus-4 Vitebsk':'Беларусь 4 Витебск'}.get(core,core)
         if core=='Zhara': core='Жара'
         if fed: core=core.replace(info.get('name','\0'),FED[base]) if info.get('name','\0') in core else FED[base]
         elif alts and core==info.get('name'): core=alts[0]
@@ -96,6 +97,7 @@ for c in ['ru','by']:
         grp=refine(grp,core,cats,c)
         if c=='by' and grp=='Региональные': grp='Общие'
         grp=final(grp,core,base,fed)
+        if c=='by' and re.search(r'^Belarus-4|^Беларусь 4|^Витебск|^Буг-ТВ',core): grp='Региональные'
         if url in OVR['rename']:
             rn,rcid,rg=OVR['rename'][url]; core=rn
             if rcid: cid=rcid; tid=rcid+'@'+(feed or 'SD'); base=rcid.split('.')[0]
@@ -116,7 +118,7 @@ def write(path,its):
             k=(x['grp'],n);cnt[k]=cnt.get(k,0)+1
             if cnt[k]>1: n+=f' (резерв {cnt[k]-1})'
             f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{logo.get(x["cid"],"")}" group-title="{x["grp"]}",{n}\n#EXTGRP:{x["grp"]}\n'+''.join(o+'\n' for o in x['opts'])+x['url']+'\n')
-best={id(x):x for x in items if x['grp']!='Региональные'}
+best={id(x):x for x in items}
 fin=list(best.values())
 for x in list(fin):
     if False:
