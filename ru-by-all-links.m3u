@@ -25,10 +25,10 @@ https://streaming.thestream.cyou/live/7003.m3u8
 http://ott-7.sevstar.net/belarus24/index.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="Федеральные",Первый канал HD
 #EXTGRP:Федеральные
-https://stream8.cinerama.uz/1214/tracks-v1a1/mono.m3u8
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="Федеральные",Первый канал HD (резерв 1)
 #EXTGRP:Федеральные
-https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+https://stream8.cinerama.uz/1214/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="Федеральные",Первый канал
 #EXTGRP:Федеральные
 http://31.148.5.241/kanal_1/index.m3u8
@@ -124,13 +124,13 @@ http://31.148.5.241/kanal_10/index.m3u8
 https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-name="ТВ Центр" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/TV_Tsentr_2013_Logo.svg" group-title="Федеральные",ТВ Центр (резерв 2)
 #EXTGRP:Федеральные
-https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
+http://flussonic.linkintel.ru/tvc/index.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-name="ТВ Центр" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/TV_Tsentr_2013_Logo.svg" group-title="Федеральные",ТВ Центр (резерв 3)
 #EXTGRP:Федеральные
-http://flussonic.linkintel.ru/tvc/index.m3u8
+http://185.71.81.6:8080/10/index.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-name="ТВ Центр" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/TV_Tsentr_2013_Logo.svg" group-title="Федеральные",ТВ Центр (резерв 4)
 #EXTGRP:Федеральные
-http://185.71.81.6:8080/10/index.m3u8
+https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TVCentr.ru@SD" tvg-name="ТВ Центр" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/TV_Tsentr_2013_Logo.svg" group-title="Федеральные",ТВ Центр (резерв 5)
 #EXTGRP:Федеральные
 https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
@@ -230,15 +230,15 @@ https://tvcdn01.oktv.kz/tv/mir/index.m3u8
 #EXTINF:-1 tvg-id="Mir.ru@SD" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 3)
 #EXTGRP:Федеральные
 https://fs.uplink.kz/mir/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Mir.ru@Plus7" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 4)
-#EXTGRP:Федеральные
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@Plus2" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 5)
+#EXTINF:-1 tvg-id="Mir.ru@Plus2" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 4)
 #EXTGRP:Федеральные
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@Plus4" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 6)
+#EXTINF:-1 tvg-id="Mir.ru@Plus4" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 5)
 #EXTGRP:Федеральные
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
+#EXTINF:-1 tvg-id="Mir.ru@Plus7" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 6)
+#EXTGRP:Федеральные
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="Mir.ru@SD" tvg-name="Мир" tvg-logo="https://i.imgur.com/AqWaJT8.png" group-title="Федеральные",Мир (резерв 7)
 #EXTGRP:Федеральные
 https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
@@ -471,10 +471,10 @@ https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv
 http://flussonic.linkintel.ru/cinema/index.m3u8
 #EXTINF:-1 tvg-id="Cinema.ru@SD" tvg-name="Cinema" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Кино и сериалы",Cinema (резерв 1)
 #EXTGRP:Кино и сериалы
-https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
+http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTINF:-1 tvg-id="Cinema.ru@SD" tvg-name="Cinema" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Кино и сериалы",Cinema (резерв 2)
 #EXTGRP:Кино и сериалы
-http://catchup.videoline.ru/cinema/playlist.m3u8
+https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="FoxLife.ru@SD" tvg-name="Fox Life" tvg-logo="https://i.imgur.com/O2miSLA.png" group-title="Кино и сериалы",Fox Life
 #EXTGRP:Кино и сериалы
 http://stream.mcquack.net/129/index.m3u8
@@ -824,15 +824,15 @@ http://stream.mcquack.net/152/index.m3u8
 #EXTINF:-1 tvg-id="MatchPremier.ru@SD" tvg-name="Матч! Премьер" tvg-logo="https://avatars.mds.yandex.net/i?id=0e4bdacd44c114798f7334dae02683d5b0336bd2-13079178-images-thumbs&n=13" group-title="Спортивные",Матч! Премьер
 #EXTGRP:Спортивные
 http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
-#EXTINF:-1 tvg-id="Belarus5.by@HD" tvg-name="Беларусь 5" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Спортивные",Беларусь 5 HD
-#EXTGRP:Спортивные
-http://178.124.179.122:8080/BT5/index.m3u8
-#EXTINF:-1 tvg-id="Belarus5.by@HD" tvg-name="Беларусь 5" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Спортивные",Беларусь 5 HD (резерв 1)
-#EXTGRP:Спортивные
-http://stream.mcquack.net/33/index.m3u8
-#EXTINF:-1 tvg-id="Belarus5.by@SD" tvg-name="Беларусь 5" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Спортивные",Беларусь 5 HD (резерв 2)
+#EXTINF:-1 tvg-id="Belarus5.by@SD" tvg-name="Беларусь 5" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Спортивные",Беларусь 5 HD
 #EXTGRP:Спортивные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Belarus5.by@HD" tvg-name="Беларусь 5" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Спортивные",Беларусь 5 HD (резерв 1)
+#EXTGRP:Спортивные
+http://178.124.179.122:8080/BT5/index.m3u8
+#EXTINF:-1 tvg-id="Belarus5.by@HD" tvg-name="Беларусь 5" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Спортивные",Беларусь 5 HD (резерв 2)
+#EXTGRP:Спортивные
+http://stream.mcquack.net/33/index.m3u8
 #EXTINF:-1 tvg-id="KHLPrime.ru@SD" tvg-name="KHL Prime" tvg-logo="https://i.imgur.com/pwxT0ON.png" group-title="Спортивные",KHL Prime HD
 #EXTGRP:Спортивные
 http://stream.mcquack.net/178/index.m3u8
@@ -987,10 +987,10 @@ https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv
 http://stream.mcquack.net/70/index.m3u8
 #EXTINF:-1 tvg-id="365daysTV.ru@SD" tvg-name="365 дней ТВ" tvg-logo="https://i.imgur.com/NfnAiTR.png" group-title="Познавательные",365 дней ТВ (резерв 1)
 #EXTGRP:Познавательные
-https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8
+https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="365daysTV.ru@SD" tvg-name="365 дней ТВ" tvg-logo="https://i.imgur.com/NfnAiTR.png" group-title="Познавательные",365 дней ТВ (резерв 2)
 #EXTGRP:Познавательные
-https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv
+https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BigPlanet.ru@SD" tvg-name="Big Planet" tvg-logo="https://i.imgur.com/wyuqWTR.png" group-title="Познавательные",Big Planet
 #EXTGRP:Познавательные
 https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
@@ -1075,10 +1075,10 @@ https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
 http://stream.mcquack.net/240/index.m3u8
 #EXTINF:-1 tvg-id="Zoopark.ru@SD" tvg-name="Zooпарк" tvg-logo="https://i.imgur.com/IO5jegK.png" group-title="Познавательные",Zooпарк
 #EXTGRP:Познавательные
-https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
+https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Zoopark.ru@SD" tvg-name="Zooпарк" tvg-logo="https://i.imgur.com/IO5jegK.png" group-title="Познавательные",Zooпарк (резерв 1)
 #EXTGRP:Познавательные
-https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv
+https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="AutoPlus.ru@SD" tvg-name="Авто Плюс" tvg-logo="https://i.imgur.com/sVc8cFt.png" group-title="Познавательные",Авто Плюс
 #EXTGRP:Познавательные
 https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8
@@ -1132,10 +1132,10 @@ http://stream.mcquack.net/80/index.m3u8
 https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="DomashnieZhivotnye.ru@SD" tvg-name="Домашние животные" tvg-logo="https://i.imgur.com/ISJzQGP.png" group-title="Познавательные",Домашние животные
 #EXTGRP:Познавательные
-https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
+https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="DomashnieZhivotnye.ru@SD" tvg-name="Домашние животные" tvg-logo="https://i.imgur.com/ISJzQGP.png" group-title="Познавательные",Домашние животные (резерв 1)
 #EXTGRP:Познавательные
-https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv
+https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Drive.ru@SD" tvg-name="Драйв" tvg-logo="https://i.imgur.com/FnuwfSC.png" group-title="Познавательные",Драйв
 #EXTGRP:Познавательные
 https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
@@ -1369,13 +1369,13 @@ https://stream8.cinerama.uz/1502/playlist.m3u8
 http://stream.mcquack.net/111/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://i.imgur.com/QCOUJ30.png" group-title="Детские",TiJi (резерв 1)
 #EXTGRP:Детские
-https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8
+http://flussonic.linkintel.ru/tiji/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://i.imgur.com/QCOUJ30.png" group-title="Детские",TiJi (резерв 2)
 #EXTGRP:Детские
-http://flussonic.linkintel.ru/tiji/index.m3u8
+https://live-3.otcnet.ru/Tiji/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://i.imgur.com/QCOUJ30.png" group-title="Детские",TiJi (резерв 3)
 #EXTGRP:Детские
-https://live-3.otcnet.ru/Tiji/index.m3u8
+https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" tvg-name="В гостях у сказки" tvg-logo="https://i.imgur.com/jNJkLHl.png" group-title="Детские",В гостях у сказки HD
 #EXTGRP:Детские
 https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
@@ -1402,10 +1402,10 @@ https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
 http://stream.mcquack.net/79/index.m3u8
 #EXTINF:-1 tvg-id="Mama.ru@SD" tvg-name="Мама" tvg-logo="https://i.imgur.com/kmMIjjf.png" group-title="Детские",Мама (резерв 1)
 #EXTGRP:Детские
-https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
+http://flussonic.linkintel.ru/mama/index.m3u8
 #EXTINF:-1 tvg-id="Mama.ru@SD" tvg-name="Мама" tvg-logo="https://i.imgur.com/kmMIjjf.png" group-title="Детские",Мама (резерв 2)
 #EXTGRP:Детские
-http://flussonic.linkintel.ru/mama/index.m3u8
+https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Multimuzyka.ru@SD" tvg-name="Мультимузыка" tvg-logo="https://i.imgur.com/SYt6BZP.png" group-title="Детские",Мультимузыка
 #EXTGRP:Детские
 http://stream.mcquack.net/82/index.m3u8
@@ -1711,10 +1711,10 @@ http://stream.mcquack.net/106/index.m3u8
 http://176.118.197.101/TNT4/index.m3u8
 #EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" tvg-name="Точка отрыва" tvg-logo="https://i.imgur.com/TZiBQDK.png" group-title="Музыкальные / Развлекательные",Точка отрыва
 #EXTGRP:Музыкальные / Развлекательные
-https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
+https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" tvg-name="Точка отрыва" tvg-logo="https://i.imgur.com/TZiBQDK.png" group-title="Музыкальные / Развлекательные",Точка отрыва (резерв 1)
 #EXTGRP:Музыкальные / Развлекательные
-https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv
+https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Che.ru@SD" tvg-name="Че!" tvg-logo="https://i.imgur.com/ZOcDGpB.png" group-title="Музыкальные / Развлекательные",Че!
 #EXTGRP:Музыкальные / Развлекательные
 http://176.118.197.101/Che/index.m3u8

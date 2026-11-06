@@ -105,7 +105,7 @@ for c in ['ru','by']:
             fed = grp=='Федеральные' and base in FO
         if grp is None: continue
         key=(c,cid or core.lower(),feed if feed not in('SD','HD','') else '', core.lower())
-        score=(url in LIVE,len(tags)==0,res,url.startswith('https'))
+        score=('cinerama.uz' not in url,url in LIVE,len(tags)==0,res,url.startswith('https'))
         items.append(dict(key=key,score=score,core=core,res=res,tags=tags,grp=grp,tid=tid,cid=cid,opts=opts,url=url,
             sk=(FORDER.index(grp),PRI(c,base,fed,core),core.lower())))
 def write(path,its):
