@@ -109,7 +109,8 @@ for c in ['ru','by']:
         items.append(dict(key=key,score=score,core=core,res=res,tags=tags,grp=grp,tid=tid,cid=cid,opts=opts,url=url,
             sk=(FORDER.index(grp),PRI(c,base,fed,core),core.lower())))
 def write(path,its):
-    its=sorted(its,key=lambda x:(x['sk'],-x['res'],not x['score'][0],not x['score'][1]))
+    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],-x['res'],not x['score'][0],not x['score'][1]))
+    its=[dict(x,grp=('HD '+x['grp'] if x['res']>=720 else x['grp'])) for x in its]
     cnt={}
     with open(path,'w',encoding='utf-8') as f:
         f.write('#EXTM3U url-tvg="https://iptvx.one/EPG,http://epg.it999.ru/edem.xml.gz" x-tvg-url="https://iptvx.one/EPG,http://epg.it999.ru/edem.xml.gz"\n')
