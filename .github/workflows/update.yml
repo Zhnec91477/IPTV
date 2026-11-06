@@ -21,11 +21,15 @@ jobs:
             curl -fsSL -o src/$f.csv https://raw.githubusercontent.com/iptv-org/database/master/data/$f.csv
           done
       - name: Build
-        run: python3 build.py src ru-by.m3u ru-by-all-links.m3u
+        run: |
+          pip install -q pillow
+          python3 build.py src ru-by.m3u ru-by-all-links.m3u
+          python3 fetch_logos.py ru-by-all-links.m3u || true
+          python3 build.py src ru-by.m3u ru-by-all-links.m3u
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add ru-by.m3u ru-by-all-links.m3u
+          git add ru-by.m3u ru-by-all-links.m3u logos
           git diff --cached --quiet || git commit -m "Daily playlist update"
           git push

@@ -147,9 +147,15 @@ for fn in ['freetv_ru.m3u8','freetv_by.m3u8']:
         it=dict(key=('ft',tid or core.lower()),score=(True,False,True,res,url.startswith('https')),core=core,res=res,tags=[],grp=grp,
                 tid=tid,cid=tid,opts=opts,url=url,logo=lg,sk=(FORDER.index(grp),PRI('ru','',False,core),core.lower()))
         items.append(it);byname[_norm(core)]=it
-items=[x for x in items if '.mpd' not in x['url']]  # DASH: OttPlayer can't play it
+import hashlib
+def MIRROR(u):
+    if not u: return u
+    f=hashlib.sha1(u.encode()).hexdigest()[:16]+'.png'
+    if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)),'logos',f)):
+        return 'https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/'+f
+    return u
 def write(path,its):
-    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],'.mpd' in x['url'],-x['res'],not x['score'][0],not x['score'][1]))
+    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],-x['res'],not x['score'][0],not x['score'][1]))
     its=[dict(x,grp=('HD '+x['grp'] if x['res']>=720 else x['grp'])) for x in its]
     cnt={}
     with open(path,'w',encoding='utf-8') as f:
@@ -158,7 +164,7 @@ def write(path,its):
             n=x['core']+(' HD' if x['res']>=720 else '')
             k=(x['grp'],n);cnt[k]=cnt.get(k,0)+1
             if cnt[k]>1: n+=f' (резерв {cnt[k]-1})'
-            f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{x.get("logo") or logo.get(x["cid"],"")}" group-title="{x["grp"]}",{n}\n'+''.join(o+'\n' for o in x['opts'])+f'#EXTGRP:{x["grp"]}\n'+x['url']+'\n')
+            f.write(f'#EXTINF:-1 tvg-id="{x["tid"]}" tvg-name="{x["core"]}" tvg-logo="{MIRROR(x.get("logo") or logo.get(x["cid"],""))}" group-title="{x["grp"]}",{n}\n'+''.join(o+'\n' for o in x['opts'])+f'#EXTGRP:{x["grp"]}\n'+x['url']+'\n')
 best={id(x):x for x in items}
 fin=list(best.values())
 for x in list(fin):
