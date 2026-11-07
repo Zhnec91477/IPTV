@@ -147,6 +147,11 @@ for fn in ['freetv_ru.m3u8','freetv_by.m3u8']:
         it=dict(key=('ft',tid or core.lower()),score=(True,False,True,res,url.startswith('https')),core=core,res=res,tags=[],grp=grp,
                 tid=tid,cid=tid,opts=opts,url=url,logo=lg,sk=(FORDER.index(grp),PRI('ru','',False,core),core.lower()))
         items.append(it);byname[_norm(core)]=it
+# manual extra streams (overrides.json "add"): placed first for the channel of the "like" stream
+for a in OVR.get('add',[]):
+    ex=next((x for x in items if x['url']==a['like']),None)
+    if ex and not any(x['url']==a['url'] for x in items):
+        items.append(dict(ex,url=a['url'],opts=[],tags=[],score=(True,True,True,ex['res'],True),res=max(ex['res'],1080)))
 import hashlib
 def MIRROR(u):
     if not u: return u

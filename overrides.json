@@ -580,5 +580,17 @@
   "http://88.212.15.50/live/test_bober/playlist.m3u8",
   "https://streaming.astrakhan.ru/telplushd/playlist.m3u8"
  ],
- "nosound_checked": "2026-11-07"
+ "nosound_checked": "2026-11-07",
+ "add": [
+  {
+   "url": "https://raw.githubusercontent.com/Zhnec91477/IPTV/main/hls/russia_k.m3u8",
+   "like": "https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8",
+   "note": "smotrim video+audio combined"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/Zhnec91477/IPTV/main/hls/russia24nl_smotrim.m3u8",
+   "like": "https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8",
+   "note": "smotrim video+audio combined"
+  }
+ ]
 }

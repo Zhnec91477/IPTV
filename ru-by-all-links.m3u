@@ -58,8 +58,11 @@ https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=20
 https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-name="Россия К" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К HD
 #EXTGRP:HD Федеральные
-https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
+https://raw.githubusercontent.com/Zhnec91477/IPTV/main/hls/russia_k.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-name="Россия К" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К HD (резерв 1)
+#EXTGRP:HD Федеральные
+https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-name="Россия К" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К HD (резерв 2)
 #EXTGRP:HD Федеральные
 https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
 #EXTINF:-1 tvg-id="STS.ru@HD" tvg-name="СТС" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e3eea4485ee24241.png" group-title="HD Федеральные",СТС HD
@@ -1682,19 +1685,22 @@ https://live.smotrim.ru/vgtrk/0/russia24-hd/1080p.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 1)
 #EXTGRP:HD Новостные
 https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 2)
+#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 2)
 #EXTGRP:HD Новостные
-http://77.232.131.211/Rossiya24/index.m3u8
+https://raw.githubusercontent.com/Zhnec91477/IPTV/main/hls/russia24nl_smotrim.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 3)
 #EXTGRP:HD Новостные
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 4)
+http://77.232.131.211/Rossiya24/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 4)
 #EXTGRP:HD Новостные
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 5)
 #EXTGRP:HD Новостные
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 6)
+#EXTGRP:HD Новостные
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 7)
 #EXTGRP:HD Новостные
 https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
 #EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-name="Известия" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/25208a4afa6d6126.png" group-title="HD Новостные",Известия HD
