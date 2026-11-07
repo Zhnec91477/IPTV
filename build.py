@@ -61,7 +61,7 @@ def refine(g,core,cats,c):
 CYR=re.compile('[А-Яа-яЁё]')
 import json,os
 OVR=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'overrides.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)),'overrides.json')) else {'drop':[],'rename':{},'live':[]}
-DROPU=set(OVR['drop']);LIVE=set(OVR['live'])
+DROPU=set(OVR['drop']);LIVE=set(OVR['live']);NOSOUND=set(OVR.get('nosound',[]))
 items=[];seen=set()
 for c in ['ru','by']:
     L=open(f'{d}/{c}.m3u',encoding='utf-8').read().splitlines();i=0
@@ -155,7 +155,7 @@ def MIRROR(u):
         return 'https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/'+f
     return u
 def write(path,its):
-    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],-x['res'],not x['score'][0],not x['score'][1]))
+    its=sorted(its,key=lambda x:(x['sk'][0],x['res']<720,x['sk'][1:],x['url'] in NOSOUND,-x['res'],not x['score'][0],not x['score'][1]))
     its=[dict(x,grp=('HD '+x['grp'] if x['res']>=720 else x['grp'])) for x in its]
     cnt={}
     with open(path,'w',encoding='utf-8') as f:
