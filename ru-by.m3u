@@ -527,9 +527,6 @@ http://stream.mcquack.net/362/index.m3u8
 #EXTINF:-1 tvg-id="Nevskiy.ru@SD" tvg-name="Невский" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/b3a950dac78b635b.png" group-title="HD Кино и сериалы",Невский HD
 #EXTGRP:HD Кино и сериалы
 https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
-#EXTINF:-1 tvg-id="NTVSvoyaigra.ru@SD" tvg-name="НТВ Своя игра" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/4f79a166b959f147.png" group-title="HD Кино и сериалы",НТВ Своя игра HD
-#EXTGRP:HD Кино и сериалы
-https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8
 #EXTINF:-1 tvg-id="Patriot.ru@SD" tvg-name="Патриот" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/68a1cb3f5a80447e.png" group-title="HD Кино и сериалы",Патриот HD
 #EXTGRP:HD Кино и сериалы
 https://stream.smotrim.ru/hls2/static/playlist_4.m3u8
