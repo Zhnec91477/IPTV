@@ -515,6 +515,9 @@ http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-id="KinoTV.ru@HD" tvg-name="Кино ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/f56eccc0c5a6a634.png" group-title="HD Кино и сериалы",Кино ТВ HD
 #EXTGRP:HD Кино и сериалы
 http://176.118.197.101/KinoTvHD/playlist.m3u8
+#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" tvg-name="Киноужас" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5e6e925ea372a8bd.png" group-title="HD Кино и сериалы",Киноужас HD
+#EXTGRP:HD Кино и сериалы
+http://s1.merlive.am/Kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="Komediynoe.ru@HD" tvg-name="Комедийное" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/edcd9f232c205e40.png" group-title="HD Кино и сериалы",Комедийное HD
 #EXTGRP:HD Кино и сериалы
 http://stream.mcquack.net/74/index.m3u8
@@ -630,6 +633,9 @@ http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTGRP:Кино и сериалы
 http://stream.mcquack.net/129/index.m3u8
 #EXTINF:-1 tvg-id="StarCinema.ru@SD" tvg-name="Star Cinema" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5ef972657837402a.png" group-title="Кино и сериалы",Star Cinema
+#EXTGRP:Кино и сериалы
+http://s1.merlive.am/starsinema/index.m3u8
+#EXTINF:-1 tvg-id="StarCinema.ru@SD" tvg-name="Star Cinema" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5ef972657837402a.png" group-title="Кино и сериалы",Star Cinema (резерв 1)
 #EXTGRP:Кино и сериалы
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="STARTAir.ru@SD" tvg-name="START Air" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/796128cefbbba5ca.png" group-title="Кино и сериалы",START Air
@@ -836,6 +842,12 @@ http://stream.mcquack.net/178/index.m3u8
 #EXTINF:-1 tvg-id="KHLPrime.ru@SD" tvg-name="KHL Prime" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9c3640e2486e0346.png" group-title="HD Спортивные",KHL Prime HD (резерв 1)
 #EXTGRP:HD Спортивные
 https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="FONTV.ru@HD" tvg-name="FON TV" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9e80759e880acedf.png" group-title="HD Спортивные",FON TV HD
+#EXTGRP:HD Спортивные
+https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
+#EXTINF:-1 tvg-id="FONTV.ru@HD" tvg-name="FON TV" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9e80759e880acedf.png" group-title="HD Спортивные",FON TV HD (резерв 1)
+#EXTGRP:HD Спортивные
+https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8
 #EXTINF:-1 tvg-id="OkkoPrajmSport.ru@SD" tvg-name="Okko Прайм Спорт" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ed833ecb0325dcdc.png" group-title="HD Спортивные",Okko Прайм Спорт HD
 #EXTGRP:HD Спортивные
 http://stream.mcquack.net/493/index.m3u8
@@ -933,6 +945,9 @@ http://stream.mcquack.net/188/index.m3u8
 https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" tvg-name="Матч! Планета" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a34cef7e23e214b5.png" group-title="Спортивные",Матч! Планета (резерв 1)
 #EXTGRP:Спортивные
+http://s1.merlive.am/matchplaneta/index.m3u8
+#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" tvg-name="Матч! Планета" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a34cef7e23e214b5.png" group-title="Спортивные",Матч! Планета (резерв 2)
+#EXTGRP:Спортивные
 http://212.0.211.102:9999/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="MatchStrana.ru@SD" tvg-name="Матч! Страна" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e071febe9f6790e8.png" group-title="Спортивные",Матч! Страна
 #EXTGRP:Спортивные
@@ -973,6 +988,9 @@ http://stream.mcquack.net/164/index.m3u8
 #EXTINF:-1 tvg-id="ShoppingLive.ru@SD" tvg-name="Shopping Live" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/b623b1ad6ece7716.png" group-title="HD Познавательные",Shopping Live HD
 #EXTGRP:HD Познавательные
 https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TERRA.ru@SD" tvg-name="TERRA" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/da2e31beb80d30c7.png" group-title="HD Познавательные",TERRA HD
+#EXTGRP:HD Познавательные
+http://s1.merlive.am/TerraHD/index.m3u8
 #EXTINF:-1 tvg-id="TheExplorers.ru@SD" tvg-name="The Explorers" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/bb9b2d20968ca81f.png" group-title="HD Познавательные",The Explorers HD
 #EXTGRP:HD Познавательные
 https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
@@ -1015,6 +1033,9 @@ http://stream.mcquack.net/83/index.m3u8
 #EXTINF:-1 tvg-id="Zhivayapriroda.ru@HD" tvg-name="Живая природа" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/039122e25d8cc4da.png" group-title="HD Познавательные",Живая природа HD (резерв 1)
 #EXTGRP:HD Познавательные
 http://stream.mcquack.net/225/index.m3u8
+#EXTINF:-1 tvg-id="Zhivayapriroda.ru@HD" tvg-name="Живая природа" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/039122e25d8cc4da.png" group-title="HD Познавательные",Живая природа HD (резерв 2)
+#EXTGRP:HD Познавательные
+http://s1.merlive.am/Jivaiapriroda/index.m3u8
 #EXTINF:-1 tvg-id="InsaytTV.ru@4K" tvg-name="Инсайт ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/3c1a11d9b452088e.png" group-title="HD Познавательные",Инсайт ТВ HD
 #EXTGRP:HD Познавательные
 http://stream.mcquack.net/361/index.m3u8
@@ -1045,6 +1066,9 @@ http://stream.mcquack.net/198/index.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD" tvg-name="Смотрим 100% Факты" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/250b681009dba148.png" group-title="HD Познавательные",Смотрим 100% Факты HD
 #EXTGRP:HD Познавательные
 https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Telecafe.ru@SD" tvg-name="Телекафе" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/66cf56efc5cea3e3.png" group-title="HD Познавательные",Телекафе HD
+#EXTGRP:HD Познавательные
+http://s1.merlive.am/telekafe/index.m3u8
 #EXTINF:-1 tvg-id="Nauka.ru@SD" tvg-name="Наука" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/06fdfdffe468350b.png" group-title="Познавательные",Наука
 #EXTGRP:Познавательные
 http://stream.mcquack.net/125/index.m3u8
@@ -1325,6 +1349,9 @@ http://flussonic.linkintel.ru/tiji/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/215d7b8df2cf45cf.png" group-title="Детские",TiJi (резерв 2)
 #EXTGRP:Детские
 https://live-3.otcnet.ru/Tiji/index.m3u8
+#EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/215d7b8df2cf45cf.png" group-title="Детские",TiJi (резерв 3)
+#EXTGRP:Детские
+http://s1.merlive.am/TiJi/index.m3u8
 #EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" tvg-name="В гостях у сказки" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/fadadfb0c32da2bf.png" group-title="Детские",В гостях у сказки
 #EXTGRP:Детские
 http://stream.mcquack.net/93/index.m3u8
@@ -1478,6 +1505,9 @@ https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="black.ru@SD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="Музыкальные / Развлекательные",.black
 #EXTGRP:Музыкальные / Развлекательные
 http://stream.mcquack.net/263/index.m3u8
+#EXTINF:-1 tvg-id="black.ru@SD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="Музыкальные / Развлекательные",.black (резерв 1)
+#EXTGRP:Музыкальные / Развлекательные
+http://s1.merlive.am/black/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red
 #EXTGRP:Музыкальные / Развлекательные
 http://5.188.159.128:8070/RED/index.m3u8
