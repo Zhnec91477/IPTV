@@ -911,14 +911,6 @@ https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="OkkoFutbol.ru@SD" tvg-name="Okko Футбол" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eb60c46b7deb9f7d.png" group-title="Спортивные",Okko Футбол
 #EXTGRP:Спортивные
 http://178.124.179.122:8080/Setanta1/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" tvg-name="Setanta Sports 1" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e8287a00e0b87862.png" group-title="Спортивные",Setanta Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-#EXTGRP:Спортивные
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" tvg-name="Setanta Sports 2" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/d667eff99bd4871e.png" group-title="Спортивные",Setanta Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-#EXTGRP:Спортивные
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" tvg-name="viju+ Sport" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5d3ca1dfec981264.png" group-title="Спортивные",viju+ Sport
 #EXTGRP:Спортивные
 http://31.148.5.241/Viasat_Sport/index.m3u8
@@ -1211,6 +1203,9 @@ http://88.212.15.50/live/test_poehali/playlist.m3u8
 #EXTINF:-1 tvg-id="Prosveshchenie.ru@SD" tvg-name="Просвещение" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/6bce9791fbb499fe.png" group-title="Познавательные",Просвещение
 #EXTGRP:Познавательные
 http://cdn-01.bonus-tv.ru/prosveschenie_edge/index.m3u8
+#EXTINF:-1 tvg-id="Rybalkaiokhota.ru@SD" tvg-name="Рыбалка и охота" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/115d81a68b6ca4fd.png" group-title="Познавательные",Рыбалка и охота
+#EXTGRP:Познавательные
+https://fs.uplink.kz/ohota_i_ribalka/index.m3u8?token=onlinetv2
 #EXTINF:-1 tvg-id="Rybolov.ru@SD" tvg-name="Рыболов" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/acd4d7f20fe4f272.png" group-title="Познавательные",Рыболов
 #EXTGRP:Познавательные
 http://stream.mcquack.net/264/index.m3u8
