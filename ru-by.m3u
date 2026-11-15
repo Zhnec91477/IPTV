@@ -405,9 +405,6 @@ http://178.124.179.122:8080/TRO/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0
 #EXTGRP:Федеральные
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
-#EXTINF:-1 tvg-id="STSInternational.ru@SD" tvg-name="STS International" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/3a2eb778c0135400.png" group-title="Федеральные",STS International
-#EXTGRP:Федеральные
-http://178.134.1.158:8081/CTC/index.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@Europa" tvg-name="Первый канал Europa" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/80a23178bb9df2f1.png" group-title="Федеральные",Первый канал Europa
 #EXTGRP:Федеральные
 https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
@@ -420,13 +417,7 @@ https://fs.uplink.kz/perviy_kanal_sng/mono.m3u8?token=onlinetv
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Пятый International" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e55664cb0a58111b.png" group-title="Федеральные",Пятый International (резерв 1)
 #EXTGRP:Федеральные
-http://178.134.1.158:8081/5channel/index.m3u8
-#EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Пятый International" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e55664cb0a58111b.png" group-title="Федеральные",Пятый International (резерв 2)
-#EXTGRP:Федеральные
 https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="RENTVInternational.ru@SD" tvg-name="РЕН ТВ International" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7d8f1f752818ee63.png" group-title="Федеральные",РЕН ТВ International
-#EXTGRP:Федеральные
-http://178.134.1.158:8081/RENTV/index.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@SD" tvg-name="Кинопремьера" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/dd023cff183eb8ed.png" group-title="HD Кино и сериалы",Кинопремьера HD
 #EXTGRP:HD Кино и сериалы
 http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
@@ -1647,9 +1638,6 @@ http://176.118.197.101/TNT4/index.m3u8
 #EXTINF:-1 tvg-id="Tochkaotryva.ru@SD" tvg-name="Точка отрыва" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/0b8558f3f40fbd09.png" group-title="Музыкальные / Развлекательные",Точка отрыва
 #EXTGRP:Музыкальные / Развлекательные
 https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Che.ru@SD" tvg-name="Че!" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/30eadb0189de38e5.png" group-title="Музыкальные / Развлекательные",Че!
-#EXTGRP:Музыкальные / Развлекательные
-http://176.118.197.101/Che/index.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" tvg-name="Шансон ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/718e5ef3cfd020fc.png" group-title="Музыкальные / Развлекательные",Шансон ТВ
 #EXTGRP:Музыкальные / Развлекательные
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
@@ -1848,11 +1836,6 @@ https://online-video.rbc.ru/spb/rbctv_spb.m3u8
 #EXTINF:-1 tvg-id="6TVGorlovka.ru@SD" tvg-name="6 ТВ Горловка" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5a30d44a55ccfaaf.png" group-title="HD Региональные",6 ТВ Горловка HD
 #EXTGRP:HD Региональные
 http://91.214.48.158:4022/udp/224.2.2.4:10000
-#EXTINF:-1 tvg-id="Channel8Krasnoyarsk.ru@HD" tvg-name="8 канал Красноярск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a38f6a14dfead6d5.png" group-title="HD Региональные",8 канал Красноярск HD
-#EXTVLCOPT:http-referrer=https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTGRP:HD Региональные
-https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Oplot2.ru@SD" tvg-name="Oplot 2" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ea464c049ef9e59a.png" group-title="HD Региональные",Oplot 2 HD
 #EXTGRP:HD Региональные
 http://91.224.16.9:7779/Oplot_2/index.m3u8
