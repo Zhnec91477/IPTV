@@ -835,10 +835,10 @@ http://stream.mcquack.net/178/index.m3u8
 https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="FONTV.ru@HD" tvg-name="FON TV" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9e80759e880acedf.png" group-title="HD Спортивные",FON TV HD
 #EXTGRP:HD Спортивные
-https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
+https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8
 #EXTINF:-1 tvg-id="FONTV.ru@HD" tvg-name="FON TV" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9e80759e880acedf.png" group-title="HD Спортивные",FON TV HD (резерв 1)
 #EXTGRP:HD Спортивные
-https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8
+https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
 #EXTINF:-1 tvg-id="OkkoPrajmSport.ru@SD" tvg-name="Okko Прайм Спорт" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ed833ecb0325dcdc.png" group-title="HD Спортивные",Okko Прайм Спорт HD
 #EXTGRP:HD Спортивные
 http://stream.mcquack.net/493/index.m3u8
@@ -925,10 +925,10 @@ http://stream.mcquack.net/112/index.m3u8
 http://stream.mcquack.net/188/index.m3u8
 #EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" tvg-name="Матч! Планета" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a34cef7e23e214b5.png" group-title="Спортивные",Матч! Планета
 #EXTGRP:Спортивные
-https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
+http://s1.merlive.am/matchplaneta/index.m3u8
 #EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" tvg-name="Матч! Планета" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a34cef7e23e214b5.png" group-title="Спортивные",Матч! Планета (резерв 1)
 #EXTGRP:Спортивные
-http://s1.merlive.am/matchplaneta/index.m3u8
+https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" tvg-name="Матч! Планета" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a34cef7e23e214b5.png" group-title="Спортивные",Матч! Планета (резерв 2)
 #EXTGRP:Спортивные
 http://212.0.211.102:9999/play/a00b/index.m3u8
@@ -1334,10 +1334,10 @@ http://stream.mcquack.net/111/index.m3u8
 http://flussonic.linkintel.ru/tiji/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/215d7b8df2cf45cf.png" group-title="Детские",TiJi (резерв 2)
 #EXTGRP:Детские
-https://live-3.otcnet.ru/Tiji/index.m3u8
+http://s1.merlive.am/TiJi/index.m3u8
 #EXTINF:-1 tvg-id="TiJi.ru@SD" tvg-name="TiJi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/215d7b8df2cf45cf.png" group-title="Детские",TiJi (резерв 3)
 #EXTGRP:Детские
-http://s1.merlive.am/TiJi/index.m3u8
+https://live-3.otcnet.ru/Tiji/index.m3u8
 #EXTINF:-1 tvg-id="Vgostyakhuskazki.ru@SD" tvg-name="В гостях у сказки" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/fadadfb0c32da2bf.png" group-title="Детские",В гостях у сказки
 #EXTGRP:Детские
 http://stream.mcquack.net/93/index.m3u8
@@ -1854,6 +1854,9 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by@Vitebsk" tvg-name="Беларусь 4 Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/108ffbd4158676c2.png" group-title="HD Региональные",Беларусь 4 Витебск HD
 #EXTGRP:HD Региональные
 https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Belarus4.by@Gomel" tvg-name="Беларусь 4 Гомель" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/108ffbd4158676c2.png" group-title="HD Региональные",Беларусь 4 Гомель HD
+#EXTGRP:HD Региональные
+https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Belgorod24.ru@SD" tvg-name="Белгород 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7e6d83642bac5a8c.png" group-title="HD Региональные",Белгород 24 HD
 #EXTGRP:HD Региональные
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
@@ -1863,6 +1866,12 @@ http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
 #EXTINF:-1 tvg-id="BugTV.by@SD" tvg-name="Буг-ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9cc4a9239ef2e5d3.png" group-title="HD Региональные",Буг-ТВ HD
 #EXTGRP:HD Региональные
 http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
+#EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e7e2ff30189cd361.png" group-title="HD Региональные",Витебск HD
+#EXTGRP:HD Региональные
+https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e7e2ff30189cd361.png" group-title="HD Региональные",Витебск HD (резерв 1)
+#EXTGRP:HD Региональные
+https://flu.vtv.by/tvt-non-by/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Volgograd24.ru@SD" tvg-name="Волгоград 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9768b2f6a0656142.png" group-title="HD Региональные",Волгоград 24 HD
 #EXTGRP:HD Региональные
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
@@ -1966,9 +1975,6 @@ https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
 #EXTINF:-1 tvg-id="Afontovo.ru@SD" tvg-name="Афонтово" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/646144435c8cf759.png" group-title="Региональные",Афонтово
 #EXTGRP:Региональные
 https://stream.afontovo.ru/hd.m3u8
-#EXTINF:-1 tvg-id="Belarus4.by@Gomel" tvg-name="Беларусь 4 Гомель" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/108ffbd4158676c2.png" group-title="Региональные",Беларусь 4 Гомель
-#EXTGRP:Региональные
-https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Bober.ru@SD" tvg-name="Бобёр" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/094cf0fa9b748621.png" group-title="Региональные",Бобёр
 #EXTGRP:Региональные
 https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
@@ -1984,12 +1990,6 @@ http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e7e2ff30189cd361.png" group-title="Региональные",Витебск
 #EXTGRP:Региональные
 http://46.53.200.153:7777/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e7e2ff30189cd361.png" group-title="Региональные",Витебск (резерв 1)
-#EXTGRP:Региональные
-https://flu.vtv.by/tvt-non-by/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e7e2ff30189cd361.png" group-title="Региональные",Витебск (резерв 2)
-#EXTGRP:Региональные
-https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Groznyj.ru@SD" tvg-name="Грозный" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e5aa4aa61c03011c.png" group-title="Региональные",Грозный
 #EXTGRP:Региональные
 https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
