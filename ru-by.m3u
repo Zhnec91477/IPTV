@@ -11,6 +11,9 @@ https://edge55.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="STV.by@HD" tvg-name="СТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/f870268ad8b3de32.png" group-title="HD Федеральные",СТВ HD
 #EXTGRP:HD Федеральные
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="STV.by@SD" tvg-name="СТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/f870268ad8b3de32.png" group-title="HD Федеральные",СТВ HD (резерв 1)
+#EXTGRP:HD Федеральные
+http://86.57.147.236/HLS/ctvby/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus2.by@HD" tvg-name="Беларусь 2" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/2804dc6f6d34523b.png" group-title="HD Федеральные",Беларусь 2 HD
 #EXTGRP:HD Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
@@ -29,6 +32,9 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@HD" tvg-name="Первый канал" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/80a23178bb9df2f1.png" group-title="HD Федеральные",Первый канал HD
 #EXTGRP:HD Федеральные
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+#EXTINF:-1 tvg-id="ChannelOne.ru@HD" tvg-name="Первый канал" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/80a23178bb9df2f1.png" group-title="HD Федеральные",Первый канал HD (резерв 1)
+#EXTGRP:HD Федеральные
+http://94.250.255.172/ptv/vitrina/ch.php?id=aHR0cHM6Ly9tZWRpYS5tZWRpYXZpdHJpbmEucnUvYmFsYW5jZXIvdjMvMXR2LzF0dmNoL3N0cmVhbXMuanNvbg
 #EXTINF:-1 tvg-id="Russia1.ru@HD" tvg-name="Россия 1" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 HD
 #EXTGRP:HD Федеральные
 http://176.118.197.101/RossiyaHD/index.m3u8
@@ -38,6 +44,33 @@ https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@HD" tvg-name="Россия 1" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 HD (резерв 2)
 #EXTGRP:HD Федеральные
 https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus1" tvg-name="Россия 1 +1" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +1 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus1/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus2" tvg-name="Россия 1 +2" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +2 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus2/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus3" tvg-name="Россия 1 +3" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +3 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus3/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus4" tvg-name="Россия 1 +4" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +4 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus4/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus5" tvg-name="Россия 1 +5" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +5 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus5/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus6" tvg-name="Россия 1 +6" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +6 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus6/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus7" tvg-name="Россия 1 +7" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +7 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus7/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus8" tvg-name="Россия 1 +8" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +8 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus8/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@Plus9" tvg-name="Россия 1 +9" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5f53d9cebe0fab30.png" group-title="HD Федеральные",Россия 1 +9 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia1_plus9/playlist_5.m3u8
 #EXTINF:-1 tvg-id="Match.ru@4K" tvg-name="Матч ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/87f1d39594788354.png" group-title="HD Федеральные",Матч ТВ HD
 #EXTGRP:HD Федеральные
 http://31.148.5.241/kanal_3/index.m3u8
@@ -65,6 +98,15 @@ https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@HD" tvg-name="Россия К" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К HD (резерв 2)
 #EXTGRP:HD Федеральные
 https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@Plus2" tvg-name="Россия К +2" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К +2 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia_k_dubl1/playlist_5.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@Plus4" tvg-name="Россия К +4" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К +4 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia_k_dubl2/playlist_5.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@Plus7" tvg-name="Россия К +7" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/26f5655c6475f110.png" group-title="HD Федеральные",Россия К +7 HD
+#EXTGRP:HD Федеральные
+https://stream.smotrim.ru/hls2/russia_k_dubl3/playlist_5.m3u8
 #EXTINF:-1 tvg-id="STS.ru@HD" tvg-name="СТС" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e3eea4485ee24241.png" group-title="HD Федеральные",СТС HD
 #EXTGRP:HD Федеральные
 http://stream.mcquack.net/138/index.m3u8
@@ -551,13 +593,25 @@ http://77.232.131.211/Sapfir/manifest.m3u8
 #EXTINF:-1 tvg-id="Skorayapomoshch.ru@SD" tvg-name="Скорая помощь" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/00af74f8b608d73a.png" group-title="HD Кино и сериалы",Скорая помощь HD
 #EXTGRP:HD Кино и сериалы
 https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Gorkogo.ru@SD" tvg-name="Смотрим 100% Горького" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/feecf22ea2023a0e.png" group-title="HD Кино и сериалы",Смотрим 100% Горького HD
+#EXTGRP:HD Кино и сериалы
+https://stream.smotrim.ru/hls2/fasttv07/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" tvg-name="Смотрим 100% Классика" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7984afb9d94c4408.png" group-title="HD Кино и сериалы",Смотрим 100% Классика HD
+#EXTGRP:HD Кино и сериалы
+https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" tvg-name="Смотрим 100% Классика" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7984afb9d94c4408.png" group-title="HD Кино и сериалы",Смотрим 100% Классика HD (резерв 1)
 #EXTGRP:HD Кино и сериалы
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Lyubov.ru@SD" tvg-name="Смотрим 100% Любовь" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/64ef1b422147ec6c.png" group-title="HD Кино и сериалы",Смотрим 100% Любовь HD
 #EXTGRP:HD Кино и сериалы
+https://stream.smotrim.ru/hls2/fasttv01/playlist_2.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Lyubov.ru@SD" tvg-name="Смотрим 100% Любовь" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/64ef1b422147ec6c.png" group-title="HD Кино и сериалы",Смотрим 100% Любовь HD (резерв 1)
+#EXTGRP:HD Кино и сериалы
 https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Muzhskoe.ru@SD" tvg-name="Смотрим 100% Мужское" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a2c82f7bf726dc0d.png" group-title="HD Кино и сериалы",Смотрим 100% Мужское HD
+#EXTGRP:HD Кино и сериалы
+https://stream.smotrim.ru/hls2/fasttv02/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Muzhskoe.ru@SD" tvg-name="Смотрим 100% Мужское" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a2c82f7bf726dc0d.png" group-title="HD Кино и сериалы",Смотрим 100% Мужское HD (резерв 1)
 #EXTGRP:HD Кино и сериалы
 https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Hit.ru@HD" tvg-name="Хит" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/741b0831de2d9dd3.png" group-title="HD Кино и сериалы",Хит HD
@@ -602,6 +656,9 @@ https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="scifi.ru@SD" tvg-name=".sci-fi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eb656428317fbe45.png" group-title="Кино и сериалы",.sci-fi
 #EXTGRP:Кино и сериалы
 http://stream.mcquack.net/180/index.m3u8
+#EXTINF:-1 tvg-id="scifi.ru@SD" tvg-name=".sci-fi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eb656428317fbe45.png" group-title="Кино и сериалы",.sci-fi (резерв 1)
+#EXTGRP:Кино и сериалы
+http://116.90.120.149:8000/play/a0ao/index.m3u8
 #EXTINF:-1 tvg-id="Bollywood.ru@HD" tvg-name="Bollywood" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9c05a0df726b3707.png" group-title="Кино и сериалы",Bollywood
 #EXTGRP:Кино и сериалы
 http://176.118.197.101/Bollywood_HD/index.m3u8
@@ -1048,6 +1105,9 @@ http://stream.mcquack.net/194/index.m3u8
 http://stream.mcquack.net/198/index.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD" tvg-name="Смотрим 100% Факты" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/250b681009dba148.png" group-title="HD Познавательные",Смотрим 100% Факты HD
 #EXTGRP:HD Познавательные
+https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD" tvg-name="Смотрим 100% Факты" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/250b681009dba148.png" group-title="HD Познавательные",Смотрим 100% Факты HD (резерв 1)
+#EXTGRP:HD Познавательные
 https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Telecafe.ru@SD" tvg-name="Телекафе" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/66cf56efc5cea3e3.png" group-title="HD Познавательные",Телекафе HD
 #EXTGRP:HD Познавательные
@@ -1098,6 +1158,9 @@ https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
 #EXTGRP:Познавательные
 http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1 tvg-id="DaVinci.ru@SD" tvg-name="Da Vinci" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/13ce920912789318.png" group-title="Познавательные",Da Vinci (резерв 1)
+#EXTGRP:Познавательные
+http://116.90.120.149:8000/play/a0s6/index.m3u8
+#EXTINF:-1 tvg-id="DaVinci.ru@SD" tvg-name="Da Vinci" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/13ce920912789318.png" group-title="Познавательные",Da Vinci (резерв 2)
 #EXTGRP:Познавательные
 https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Home4K.ru@SD" tvg-name="Home 4K" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a8a007ece50a3761.png" group-title="Познавательные",Home 4K
@@ -1250,6 +1313,9 @@ https://rutvkids.ru/live/efir/index.m3u8
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" tvg-name="Смотрим 100% Детское" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/c0d8ad5bb65336d4.png" group-title="HD Детские",Смотрим 100% Детское HD
 #EXTGRP:HD Детские
+https://stream.smotrim.ru/hls2/fasttv05/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" tvg-name="Смотрим 100% Детское" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/c0d8ad5bb65336d4.png" group-title="HD Детские",Смотрим 100% Детское HD (резерв 1)
+#EXTGRP:HD Детские
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 #EXTINF:-1 tvg-id="SuperGeroi.ru@SD" tvg-name="СуперГерои" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/d988927f86909e17.png" group-title="HD Детские",СуперГерои HD
 #EXTGRP:HD Детские
@@ -1395,6 +1461,9 @@ https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="RUTV.ru@SD" tvg-name="РУ.ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/b814585184131153.png" group-title="HD Музыкальные / Развлекательные",РУ.ТВ HD
 #EXTGRP:HD Музыкальные / Развлекательные
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1 tvg-id="black.ru@HD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="HD Музыкальные / Развлекательные",.black HD
+#EXTGRP:HD Музыкальные / Развлекательные
+http://116.90.120.149:8000/play/a0ac/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@HD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="HD Музыкальные / Развлекательные",.red HD
 #EXTGRP:HD Музыкальные / Развлекательные
 http://178.134.1.158:8081/red/index.m3u8
@@ -1440,9 +1509,18 @@ https://stream1.dc.beltelecom.by/radiomir/studio.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioShanson.ru@SD" tvg-name="Радио Шансон" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/797c1f3c42575d59.png" group-title="HD Музыкальные / Развлекательные",Радио Шансон HD
 #EXTGRP:HD Музыкальные / Развлекательные
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+#EXTINF:-1 tvg-id="Smotrim100k1.ru@SD" tvg-name="Смотрим 100% к 1" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/d6615c18ec2adfab.png" group-title="HD Музыкальные / Развлекательные",Смотрим 100% к 1 HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://stream.smotrim.ru/hls2/fasttv08/playlist_2.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Prazdnik.ru@SD" tvg-name="Смотрим 100% Праздник" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/349ee7861fe161ce.png" group-title="HD Музыкальные / Развлекательные",Смотрим 100% Праздник HD
 #EXTGRP:HD Музыкальные / Развлекательные
+https://stream.smotrim.ru/hls2/fasttv04/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Prazdnik.ru@SD" tvg-name="Смотрим 100% Праздник" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/349ee7861fe161ce.png" group-title="HD Музыкальные / Развлекательные",Смотрим 100% Праздник HD (резерв 1)
+#EXTGRP:HD Музыкальные / Развлекательные
 https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8
+#EXTINF:-1 tvg-id="Smotrim100Talkshow.ru@SD" tvg-name="Смотрим 100% Ток-шоу" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/202375951f834d04.png" group-title="HD Музыкальные / Развлекательные",Смотрим 100% Ток-шоу HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://stream.smotrim.ru/hls2/fasttv09/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Strana.ru@SD" tvg-name="Страна ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/21e96ef1e58b902d.png" group-title="HD Музыкальные / Развлекательные",Страна ТВ HD
 #EXTGRP:HD Музыкальные / Развлекательные
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
@@ -1496,6 +1574,9 @@ https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-id="black.ru@SD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="Музыкальные / Развлекательные",.black (резерв 1)
 #EXTGRP:Музыкальные / Развлекательные
+http://116.90.120.149:8000/play/a0s4/index.m3u8
+#EXTINF:-1 tvg-id="black.ru@SD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="Музыкальные / Развлекательные",.black (резерв 2)
+#EXTGRP:Музыкальные / Развлекательные
 http://s1.merlive.am/black/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red
 #EXTGRP:Музыкальные / Развлекательные
@@ -1503,6 +1584,9 @@ http://5.188.159.128:8070/RED/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red (резерв 1)
 #EXTGRP:Музыкальные / Развлекательные
 http://stream.mcquack.net/69/index.m3u8
+#EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red (резерв 2)
+#EXTGRP:Музыкальные / Развлекательные
+http://116.90.120.149:8000/play/a0an/index.m3u8
 #EXTINF:-1 tvg-id="Channel8.ru@SD" tvg-name="8 канал" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/d7ccc54557a666d9.png" group-title="Музыкальные / Развлекательные",8 канал
 #EXTGRP:Музыкальные / Развлекательные
 http://45.11.139.43:8555/8kanal/index.m3u8
@@ -1701,19 +1785,22 @@ https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 2)
 #EXTGRP:HD Новостные
 https://raw.githubusercontent.com/Zhnec91477/IPTV/main/hls/russia24nl_smotrim.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 3)
+#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 3)
 #EXTGRP:HD Новостные
-http://77.232.131.211/Rossiya24/index.m3u8
+https://stream.smotrim.ru/hls2/givc11_hd/playlist_4.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 4)
 #EXTGRP:HD Новостные
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 5)
+http://77.232.131.211/Rossiya24/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@HD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 5)
 #EXTGRP:HD Новостные
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 6)
 #EXTGRP:HD Новостные
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 7)
+#EXTGRP:HD Новостные
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 8)
 #EXTGRP:HD Новостные
 https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
 #EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-name="Известия" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/25208a4afa6d6126.png" group-title="HD Новостные",Известия HD
@@ -1790,8 +1877,11 @@ http://31.148.5.241/kanal_7/index.m3u8
 http://176.118.197.101/Rossiya24/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="Новостные",Россия 24 (резерв 2)
 #EXTGRP:Новостные
-https://uiptv.do.am/1ufc/000000006/playlist.m3u8
+https://stream.smotrim.ru/hls2/russia24_int/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="Новостные",Россия 24 (резерв 3)
+#EXTGRP:Новостные
+https://uiptv.do.am/1ufc/000000006/playlist.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="Новостные",Россия 24 (резерв 4)
 #EXTGRP:Новостные
 http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-name="РБК-ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/45e3ff1569038d7b.png" group-title="Новостные",РБК-ТВ
