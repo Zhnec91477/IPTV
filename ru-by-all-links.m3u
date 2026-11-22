@@ -168,6 +168,9 @@ https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 tvg-id="NTVVitrina.ru@SD" tvg-name="НТВ Витрина" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/8c50ef0525697668.png" group-title="HD Федеральные",НТВ Витрина HD
 #EXTGRP:HD Федеральные
 https://cdn.ntv.ru/vitrina/index.m3u8
+#EXTINF:-1 tvg-id="OSN.ru@SD" tvg-name="ОСН" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e8e517472385b293.png" group-title="HD Федеральные",ОСН HD
+#EXTGRP:HD Федеральные
+http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 #EXTINF:-1 tvg-id="Prodvizhenie.ru@SD" tvg-name="Продвижение" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/40b46f1ba03a626c.png" group-title="HD Федеральные",Продвижение HD
 #EXTGRP:HD Федеральные
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
@@ -421,9 +424,6 @@ http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
 #EXTINF:-1 tvg-id="ONT.by" tvg-name="ОНТ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/48f42435d2638a6e.png" group-title="Федеральные",ОНТ
 #EXTGRP:Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:ont.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OSN.ru@SD" tvg-name="ОСН" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e8e517472385b293.png" group-title="Федеральные",ОСН
-#EXTGRP:Федеральные
-http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 #EXTINF:-1 tvg-id="Prodvizhenie.ru@SD" tvg-name="Продвижение" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/40b46f1ba03a626c.png" group-title="Федеральные",Продвижение
 #EXTGRP:Федеральные
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
@@ -1821,9 +1821,18 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Россия 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/caa875c9aa64c94e.png" group-title="HD Новостные",Россия 24 HD (резерв 8)
 #EXTGRP:HD Новостные
 https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
+#EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-name="РБК-ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/45e3ff1569038d7b.png" group-title="HD Новостные",РБК-ТВ HD
+#EXTGRP:HD Новостные
+http://online-video.rbc.ru/online2/rbctv.m3u8
 #EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-name="Известия" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/25208a4afa6d6126.png" group-title="HD Новостные",Известия HD
 #EXTGRP:HD Новостные
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
+#EXTINF:-1 tvg-id="360News.ru@SD" tvg-name="360° Новости" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/2d7d2106d3f70d88.png" group-title="HD Новостные",360° Новости HD
+#EXTGRP:HD Новостные
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
+#EXTINF:-1 tvg-id="360News.ru@SD" tvg-name="360° Новости" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/2d7d2106d3f70d88.png" group-title="HD Новостные",360° Новости HD (резерв 1)
+#EXTGRP:HD Новостные
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RT.ru@HD" tvg-name="RT" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/4c3b3f81c1c63574.png" group-title="HD Новостные",RT HD
 #EXTGRP:HD Новостные
 https://wisewatchoott.wiseplayout.com/RT/master.m3u8
@@ -1905,21 +1914,12 @@ http://dmi3y-tv.online/hls/smotrim/T2/CH_RUSSIA24_INT.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-name="РБК-ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/45e3ff1569038d7b.png" group-title="Новостные",РБК-ТВ
 #EXTGRP:Новостные
 http://176.118.197.101/RBK/index.m3u8
-#EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-name="РБК-ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/45e3ff1569038d7b.png" group-title="Новостные",РБК-ТВ (резерв 1)
-#EXTGRP:Новостные
-http://online-video.rbc.ru/online2/rbctv.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-name="РБК" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/45e3ff1569038d7b.png" group-title="Новостные",РБК
 #EXTGRP:Новостные
 https://uiptv.do.am/1ufc/701293058/playlist.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-name="РБК" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/45e3ff1569038d7b.png" group-title="Новостные",РБК (резерв 1)
 #EXTGRP:Новостные
 http://92.50.128.180/utv/1358/index.m3u8
-#EXTINF:-1 tvg-id="360News.ru@SD" tvg-name="360° Новости" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/2d7d2106d3f70d88.png" group-title="Новостные",360° Новости
-#EXTGRP:Новостные
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
-#EXTINF:-1 tvg-id="360News.ru@SD" tvg-name="360° Новости" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/2d7d2106d3f70d88.png" group-title="Новостные",360° Новости (резерв 1)
-#EXTGRP:Новостные
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNRussian.cn" tvg-name="CGTN на русском" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/aa66f0af421daadb.png" group-title="Новостные",CGTN на русском
 #EXTGRP:Новостные
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
@@ -1974,6 +1974,9 @@ https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
 #EXTINF:-1 tvg-id="Belgorod24.ru@SD" tvg-name="Белгород 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7e6d83642bac5a8c.png" group-title="HD Региональные",Белгород 24 HD (резерв 1)
 #EXTGRP:HD Региональные
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
+#EXTINF:-1 tvg-id="BST.ru@SD" tvg-name="БСТ 24 (Братск)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/11ee9ebe0d4d3868.png" group-title="HD Региональные",БСТ 24 (Братск) HD
+#EXTGRP:HD Региональные
+http://bst.bratsk.ru/hls/bst2/index.m3u8
 #EXTINF:-1 tvg-id="BugTV.by@SD" tvg-name="Буг-ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9cc4a9239ef2e5d3.png" group-title="HD Региональные",Буг-ТВ HD
 #EXTGRP:HD Региональные
 http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
@@ -1989,6 +1992,9 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="Gorodskoytelekanal.ru@SD" tvg-name="Городской телеканал" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/78dff536afe641e2.png" group-title="HD Региональные",Городской телеканал HD
 #EXTGRP:HD Региональные
 https://gtk.tv/hls/gtyar.m3u8
+#EXTINF:-1 tvg-id="Groznyj.ru@SD" tvg-name="Грозный" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e5aa4aa61c03011c.png" group-title="HD Региональные",Грозный HD
+#EXTGRP:HD Региональные
+https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
 #EXTINF:-1 tvg-id="Eurasia.ru@SD" tvg-name="Евразия (Орск)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/2849bae508bf100a.png" group-title="HD Региональные",Евразия (Орск) HD
 #EXTGRP:HD Региональные
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
@@ -2040,6 +2046,12 @@ https://tv.samaragis.ru/new/new/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="SanktPeterburg.ru@HD" tvg-name="Санкт-Петербург" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/33a72cb05a01cdeb.png" group-title="HD Региональные",Санкт-Петербург HD
 #EXTGRP:HD Региональные
 https://stream.smotrim.ru/hls2/ext_spbtv/playlist_5.m3u8
+#EXTINF:-1 tvg-id="Sever.ru@SD" tvg-name="Север (Нарьян-Мар)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/82c478dc0123660a.png" group-title="HD Региональные",Север (Нарьян-Мар) HD
+#EXTGRP:HD Региональные
+https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Sever.ru@SD" tvg-name="Север (Нарьян-Мар)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/82c478dc0123660a.png" group-title="HD Региональные",Север (Нарьян-Мар) HD (резерв 1)
+#EXTGRP:HD Региональные
+https://live.mediacdn.ru/sr1/sever/playlist.m3u8
 #EXTINF:-1 tvg-id="Sibir24.ru" tvg-name="Сибирь 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/418f9d6e8927a1f8.png" group-title="HD Региональные",Сибирь 24 HD
 #EXTGRP:HD Региональные
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/russia1-hd/index.m3u8
@@ -2092,18 +2104,12 @@ https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Bober.ru@SD" tvg-name="Бобёр" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/094cf0fa9b748621.png" group-title="Региональные",Бобёр (резерв 1)
 #EXTGRP:Региональные
 http://88.212.15.50/live/test_bober/playlist.m3u8
-#EXTINF:-1 tvg-id="BST.ru@SD" tvg-name="БСТ 24 (Братск)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/11ee9ebe0d4d3868.png" group-title="Региональные",БСТ 24 (Братск)
-#EXTGRP:Региональные
-http://bst.bratsk.ru/hls/bst2/index.m3u8
 #EXTINF:-1 tvg-id="Vetta24.ru@SD" tvg-name="Ветта 24 (Пермь)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/71417c5117f2b5d5.png" group-title="Региональные",Ветта 24 (Пермь)
 #EXTGRP:Региональные
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="Vitebsk.by@SD" tvg-name="Витебск" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e7e2ff30189cd361.png" group-title="Региональные",Витебск
 #EXTGRP:Региональные
 http://46.53.200.153:7777/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="Groznyj.ru@SD" tvg-name="Грозный" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/e5aa4aa61c03011c.png" group-title="Региональные",Грозный
-#EXTGRP:Региональные
-https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
 #EXTINF:-1 tvg-id="GuberniaSamara.ru@SD" tvg-name="Губерния (Самара)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7ad64a180055320d.png" group-title="Региональные",Губерния (Самара)
 #EXTGRP:Региональные
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
@@ -2142,12 +2148,6 @@ https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Saratov24.ru" tvg-name="Саратов 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/34045e11e0ccc473.png" group-title="Региональные",Саратов 24
 #EXTGRP:Региональные
 https://saratov24.tv/online/playlist.php
-#EXTINF:-1 tvg-id="Sever.ru@SD" tvg-name="Север (Нарьян-Мар)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/82c478dc0123660a.png" group-title="Региональные",Север (Нарьян-Мар)
-#EXTGRP:Региональные
-https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Sever.ru@SD" tvg-name="Север (Нарьян-Мар)" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/82c478dc0123660a.png" group-title="Региональные",Север (Нарьян-Мар) (резерв 1)
-#EXTGRP:Региональные
-https://live.mediacdn.ru/sr1/sever/playlist.m3u8
 #EXTINF:-1 tvg-id="Simferopol24.ru@SD" tvg-name="Симферополь 24" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/bf6b46271f8ce2fa.png" group-title="Региональные",Симферополь 24
 #EXTGRP:Региональные
 https://simf.1tvcrimea.ru/simferopol24.m3u8
