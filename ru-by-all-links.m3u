@@ -640,9 +640,6 @@ http://46.53.200.153:7777/play/a01h/index.m3u8
 http://stream.mcquack.net/100/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" tvg-name="viju TV1000 action" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/40fc4fdbb012a786.png" group-title="Кино и сериалы",viju TV1000 action (резерв 2)
 #EXTGRP:Кино и сериалы
-http://116.90.120.149:8000/play/a0aq/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000action.ru@SD" tvg-name="viju TV1000 action" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/40fc4fdbb012a786.png" group-title="Кино и сериалы",viju TV1000 action (резерв 3)
-#EXTGRP:Кино и сериалы
 https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="DomkinoPremium.ru@SD" tvg-name="Дом кино Премиум" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/f3021a86a45c193e.png" group-title="Кино и сериалы",Дом кино Премиум
 #EXTGRP:Кино и сериалы
@@ -659,9 +656,6 @@ https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="scifi.ru@SD" tvg-name=".sci-fi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eb656428317fbe45.png" group-title="Кино и сериалы",.sci-fi
 #EXTGRP:Кино и сериалы
 http://stream.mcquack.net/180/index.m3u8
-#EXTINF:-1 tvg-id="scifi.ru@SD" tvg-name=".sci-fi" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eb656428317fbe45.png" group-title="Кино и сериалы",.sci-fi (резерв 1)
-#EXTGRP:Кино и сериалы
-http://116.90.120.149:8000/play/a0ao/index.m3u8
 #EXTINF:-1 tvg-id="Bollywood.ru@HD" tvg-name="Bollywood" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/9c05a0df726b3707.png" group-title="Кино и сериалы",Bollywood
 #EXTGRP:Кино и сериалы
 http://176.118.197.101/Bollywood_HD/index.m3u8
@@ -705,9 +699,6 @@ http://46.53.200.153:7777/play/TV_1000/index.m3u8
 #EXTGRP:Кино и сериалы
 http://stream.mcquack.net/110/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000.ru@SD" tvg-name="viju TV1000" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ad62f7fa186d6944.png" group-title="Кино и сериалы",viju TV1000 (резерв 2)
-#EXTGRP:Кино и сериалы
-http://116.90.120.149:8000/play/a0ap/index.m3u8
-#EXTINF:-1 tvg-id="vijuTV1000.ru@SD" tvg-name="viju TV1000" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ad62f7fa186d6944.png" group-title="Кино и сериалы",viju TV1000 (резерв 3)
 #EXTGRP:Кино и сериалы
 https://fs.uplink.kz/viju_tv1000/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" tvg-name="viju TV1000 русское" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/20c92b4cdbf198e4.png" group-title="Кино и сериалы",viju TV1000 русское
@@ -973,9 +964,6 @@ http://31.148.5.241/Viasat_Sport/index.m3u8
 http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" tvg-name="viju+ Sport" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5d3ca1dfec981264.png" group-title="Спортивные",viju+ Sport (резерв 2)
 #EXTGRP:Спортивные
-http://116.90.120.149:8000/play/a0au/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" tvg-name="viju+ Sport" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/5d3ca1dfec981264.png" group-title="Спортивные",viju+ Sport (резерв 3)
-#EXTGRP:Спортивные
 https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="BoksTV.ru@SD" tvg-name="Бокс ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/b1b8a8a336aca45d.png" group-title="Спортивные",Бокс ТВ
 #EXTGRP:Спортивные
@@ -1144,9 +1132,6 @@ http://178.124.179.122:8080/HistoryHD/index.m3u8
 http://stream.mcquack.net/101/index.m3u8
 #EXTINF:-1 tvg-id="vijuHistory.ru@SD" tvg-name="viju History" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ac4b77369be0c7f1.png" group-title="Познавательные",viju History (резерв 3)
 #EXTGRP:Познавательные
-http://116.90.120.149:8000/play/a0as/index.m3u8
-#EXTINF:-1 tvg-id="vijuHistory.ru@SD" tvg-name="viju History" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ac4b77369be0c7f1.png" group-title="Познавательные",viju History (резерв 4)
-#EXTGRP:Познавательные
 https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="vijuExplore.ru@SD" tvg-name="viju Explore" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/34547d976abadde3.png" group-title="Познавательные",viju Explore
 #EXTGRP:Познавательные
@@ -1155,9 +1140,6 @@ http://46.53.200.153:7777/play/a01i/index.m3u8
 #EXTGRP:Познавательные
 http://stream.mcquack.net/239/index.m3u8
 #EXTINF:-1 tvg-id="vijuExplore.ru@SD" tvg-name="viju Explore" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/34547d976abadde3.png" group-title="Познавательные",viju Explore (резерв 2)
-#EXTGRP:Познавательные
-http://116.90.120.149:8000/play/a0ar/index.m3u8
-#EXTINF:-1 tvg-id="vijuExplore.ru@SD" tvg-name="viju Explore" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/34547d976abadde3.png" group-title="Познавательные",viju Explore (резерв 3)
 #EXTGRP:Познавательные
 https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="365daysTV.ru@SD" tvg-name="365 дней ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/14d98a798ee8ab99.png" group-title="Познавательные",365 дней ТВ
@@ -1173,9 +1155,6 @@ https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
 #EXTGRP:Познавательные
 http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1 tvg-id="DaVinci.ru@SD" tvg-name="Da Vinci" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/13ce920912789318.png" group-title="Познавательные",Da Vinci (резерв 1)
-#EXTGRP:Познавательные
-http://116.90.120.149:8000/play/a0s6/index.m3u8
-#EXTINF:-1 tvg-id="DaVinci.ru@SD" tvg-name="Da Vinci" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/13ce920912789318.png" group-title="Познавательные",Da Vinci (резерв 2)
 #EXTGRP:Познавательные
 https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Home4K.ru@SD" tvg-name="Home 4K" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/a8a007ece50a3761.png" group-title="Познавательные",Home 4K
@@ -1204,9 +1183,6 @@ http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
 #EXTGRP:Познавательные
 http://46.53.200.153:7777/play/a01k/index.m3u8
 #EXTINF:-1 tvg-id="vijuNature.ru@SD" tvg-name="viju Nature" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/cc368afea3e23906.png" group-title="Познавательные",viju Nature (резерв 1)
-#EXTGRP:Познавательные
-http://116.90.120.149:8000/play/a0at/index.m3u8
-#EXTINF:-1 tvg-id="vijuNature.ru@SD" tvg-name="viju Nature" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/cc368afea3e23906.png" group-title="Познавательные",viju Nature (резерв 2)
 #EXTGRP:Познавательные
 https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="Zoopark.ru@SD" tvg-name="Zooпарк" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/0914828c6838901e.png" group-title="Познавательные",Zooпарк
@@ -1323,6 +1299,9 @@ https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
 #EXTINF:-1 tvg-id="KapitanFantastika.ru@SD" tvg-name="Капитан Фантастика" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/3b2e41e372784754.png" group-title="HD Детские",Капитан Фантастика HD
 #EXTGRP:HD Детские
 http://stream.mcquack.net/144/index.m3u8
+#EXTINF:-1 tvg-id="MiniDisco.ru@SD" tvg-name="Мини Диско" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/dd809ca81f3632f1.png" group-title="HD Детские",Мини Диско HD
+#EXTGRP:HD Детские
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1c3190affe00013a80ac/720p.m3u8
 #EXTINF:-1 tvg-id="RUTVKids.ru@SD" tvg-name="РУ.ТВ Кидс" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/0cadba2b9ba2cf8a.png" group-title="HD Детские",РУ.ТВ Кидс HD
 #EXTGRP:HD Детские
 https://rutvkids.ru/live/efir/index.m3u8
@@ -1479,15 +1458,33 @@ https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="RUTV.ru@SD" tvg-name="РУ.ТВ" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/b814585184131153.png" group-title="HD Музыкальные / Развлекательные",РУ.ТВ HD
 #EXTGRP:HD Музыкальные / Развлекательные
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
-#EXTINF:-1 tvg-id="black.ru@HD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="HD Музыкальные / Развлекательные",.black HD
-#EXTGRP:HD Музыкальные / Развлекательные
-http://116.90.120.149:8000/play/a0ac/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@HD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="HD Музыкальные / Развлекательные",.red HD
 #EXTGRP:HD Музыкальные / Развлекательные
 http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru@HD" tvg-name="1HD Music Television" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/ddef421e4339ddc3.png" group-title="HD Музыкальные / Развлекательные",1HD Music Television HD
 #EXTGRP:HD Музыкальные / Развлекательные
 http://176.118.197.101/1HD/index.m3u8
+#EXTINF:-1 tvg-id="BRIDGEDance.ru@SD" tvg-name="BRIDGE Dance" tvg-logo="https://bridgemusic.ru/s/img/channels/dance-white.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE Dance HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff09f290affe00013a80a9/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGEJazz.ru@SD" tvg-name="BRIDGE Jazz" tvg-logo="https://bridgemusic.ru/s/img/channels/jazz-white.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE Jazz HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0a0390affe00013a80aa/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGERap.ru@SD" tvg-name="BRIDGE Rap" tvg-logo="https://bridgemusic.ru/s/img/channels/rap-logo-dark.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE Rap HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed9990affe00013a80b1/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGERNB.ru@SD" tvg-name="BRIDGE RNB" tvg-logo="https://bridgemusic.ru/s/img/channels/rnb-logo-dark.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE RNB HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affedb990affe00013a80b2/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGESoul.ru@SD" tvg-name="BRIDGE Soul" tvg-logo="https://bridgemusic.ru/s/img/channels/soul-logo-dark.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE Soul HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed7590affe00013a80b0/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGEVostok.ru@SD" tvg-name="BRIDGE Восток" tvg-logo="https://bridgemusic.ru/s/img/channels/vostok-white.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE Восток HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1b6881d78600017e02c5/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGESymphony.ru@SD" tvg-name="BRIDGE Симфония" tvg-logo="https://bridgemusic.ru/s/img/channels/symphony-white.svg" group-title="HD Музыкальные / Развлекательные",BRIDGE Симфония HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d2a81d78600017e02c2/720p.m3u8
 #EXTINF:-1 tvg-id="ClassicMusic.ru@SD" tvg-name="Classic Music" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/650c5569ae56f517.png" group-title="HD Музыкальные / Развлекательные",Classic Music HD
 #EXTGRP:HD Музыкальные / Развлекательные
 http://stream.mcquack.net/312/index.m3u8
@@ -1509,6 +1506,9 @@ http://stream.mcquack.net/201/index.m3u8
 #EXTINF:-1 tvg-id="VIVARussia.ru@SD" tvg-name="VIVA Russia" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/7cd433648d5b4e3f.png" group-title="HD Музыкальные / Развлекательные",VIVA Russia HD
 #EXTGRP:HD Музыкальные / Развлекательные
 https://183.giatvcdn.com/ssh101/ssh101/vivarussia/playlist.m3u8
+#EXTINF:-1 tvg-id="Verba.ru@SD" tvg-name="Верба" tvg-logo="https://bridgemusic.ru/s/img/channels/verba-white.svg" group-title="HD Музыкальные / Развлекательные",Верба HD
+#EXTGRP:HD Музыкальные / Развлекательные
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d0f81d78600017e02c1/720p.m3u8
 #EXTINF:-1 tvg-id="Maidan.ru@SD" tvg-name="Майдан" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/4e253c9ca4480228.png" group-title="HD Музыкальные / Развлекательные",Майдан HD
 #EXTGRP:HD Музыкальные / Развлекательные
 https://live-maidantv.cdnvideo.ru/maidantv/maidantv.smil/playlist.m3u8
@@ -1592,9 +1592,6 @@ https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-id="black.ru@SD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="Музыкальные / Развлекательные",.black (резерв 1)
 #EXTGRP:Музыкальные / Развлекательные
-http://116.90.120.149:8000/play/a0s4/index.m3u8
-#EXTINF:-1 tvg-id="black.ru@SD" tvg-name=".black" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/eadec9771274a444.png" group-title="Музыкальные / Развлекательные",.black (резерв 2)
-#EXTGRP:Музыкальные / Развлекательные
 http://s1.merlive.am/black/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red
 #EXTGRP:Музыкальные / Развлекательные
@@ -1602,9 +1599,6 @@ http://5.188.159.128:8070/RED/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red (резерв 1)
 #EXTGRP:Музыкальные / Развлекательные
 http://stream.mcquack.net/69/index.m3u8
-#EXTINF:-1 tvg-id="red.ru@SD" tvg-name=".red" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/114361a5f1a541c6.png" group-title="Музыкальные / Развлекательные",.red (резерв 2)
-#EXTGRP:Музыкальные / Развлекательные
-http://116.90.120.149:8000/play/a0an/index.m3u8
 #EXTINF:-1 tvg-id="Channel8.ru@SD" tvg-name="8 канал" tvg-logo="https://raw.githubusercontent.com/Zhnec91477/IPTV/main/logos/d7ccc54557a666d9.png" group-title="Музыкальные / Развлекательные",8 канал
 #EXTGRP:Музыкальные / Развлекательные
 http://45.11.139.43:8555/8kanal/index.m3u8
